@@ -8,7 +8,7 @@ from breweries.tasks.transform_task import DataTrasformer
 from breweries.tasks.business_task import DataRulesInjector
 
 default_args = {
-    'start_date':datetime(2024, 9, 15),
+    'start_date':datetime(2024, 9, 14),
     # 'email':['email@email.com'],
     # 'email_on_failure':True,
     # 'email_on_retry':True,
